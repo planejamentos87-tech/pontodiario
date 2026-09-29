@@ -1,0 +1,8 @@
+{
+  "name": "Remix: BARBOSA Agenda do Professor de Informática ",
+  "description": "Aplicativo profissional para gerenciamento, consulta e planejamento de horários das aulas do curso técnico de informática, com assistente de planos de aula integrado via IA Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle with Soft Outer Border -->
+  <rect width="512" height="512" rx="128" fill="url(#bg-grad)" />
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#6d28d9" stroke-width="8" opacity="0.4" />
+  
+  <!-- Academic / Tech Shield -->
+  <g transform="translate(141, 110)">
+    <!-- Shield Outer -->
+    <path d="M 115 0 C 190 0, 230 20, 230 40 C 230 160, 115 270, 115 270 C 115 270, 0 160, 0 40 C 0 20, 40 0, 115 0 Z" fill="#311068" stroke="url(#gold-grad)" stroke-width="12" stroke-linejoin="round" />
+    
+    <!-- Shield Inner Contrast Accent -->
+    <path d="M 115 15 C 180 15, 212 32, 212 48 C 212 150, 115 250, 115 250 C 115 250, 18 150, 18 48 C 18 32, 50 15, 115 15 Z" fill="#4c1d95" opacity="0.6" />
+
+    <!-- Technical/AI sparkles (Lucide Sparkles motif) -->
+    <path d="M 115 50 L 123 70 L 145 75 L 123 80 L 115 100 L 107 80 L 85 75 L 107 70 Z" fill="url(#gold-grad)" />
+    
+    <!-- Code Bracket Symbols (Tech/Informatica motif) -->
+    <!-- Left key < -->
+    <path d="M 70 120 L 50 135 L 70 150" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Right key > -->
+    <path d="M 160 120 L 180 135 L 160 150" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Center Division / -->
+    <line x1="125" y1="115" x2="105" y2="155" stroke="url(#gold-grad)" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Open Book icon at the shield base (representing the lesson planning) -->
+    <path d="M 115 210 C 100 195, 70 195, 55 195 L 55 170 C 70 170, 100 170, 115 185 C 130 170, 160 170, 175 170 L 175 195 C 160 195, 130 195, 115 210 Z" fill="#ffffff" />
+    <line x1="115" y1="185" x2="115" y2="210" stroke="#4c1d95" stroke-width="3" />
+  </g>
+</svg>
